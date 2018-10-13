@@ -1,6 +1,6 @@
 <?php
 /**
- * 评论输入爆炸特效插件
+ * 评论输入爆炸特效插件 https://github.com/cnguu/Bomb-Typecho-Plugin
  * 
  * @package Bomb
  * @author cnguu
