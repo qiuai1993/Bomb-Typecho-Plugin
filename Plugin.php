@@ -81,7 +81,7 @@ class Bomb_Plugin implements Typecho_Plugin_Interface
         $colorful = Helper::options()->plugin('Bomb')->colorful;
         $shake = Helper::options()->plugin('Bomb')->shake;
         if ($colorful || $shake) {
-            $jsUrl = Helper::options()->pluginUrl . '/Bomb/js/cnguu.bomb.min.js';
+            $jsUrl = Helper::options()->pluginUrl . '/Bomb/js/cnguu-bomb.min.js';
             printf("<script type='text/javascript' src='%s'></script>\n", $jsUrl);
             $colorful = $colorful ? $colorful[0] : 'false';
             $shake = $shake ? $shake[0] : 'false';
