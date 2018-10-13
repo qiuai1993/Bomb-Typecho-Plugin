@@ -94,7 +94,7 @@ class Bomb_Plugin implements Typecho_Plugin_Interface
                             document.body.addEventListener('input', POWERMODE);
                             console.log(\"%c 雨眠\",\"color:#7266ba;font-size:4em;\");
                             console.log(\"%c 时间会随着人的感觉而变长或变短，相对论真是既浪漫，又伤感的东西呢。\",\"color:#ffffff;background-color:#7266ba;padding:10px;border-radius:20px;\");
-                            console.log(\"\n %c Cnguu %c https://cnguu.cn \",\"color:#444;background:#eee;padding:5px 0;\",\"color:#eee;background:#444;padding:5px 0;\");
+                            console.log(\"\\n %c Cnguu %c https://cnguu.cn \",\"color:#444;background:#eee;padding:5px 0;\",\"color:#eee;background:#444;padding:5px 0;\");
                         })();
                     } catch (e) {
                         console.log('插件出错：请联系 www@cnguu.cn);
